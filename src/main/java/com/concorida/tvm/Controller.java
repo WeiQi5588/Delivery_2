@@ -76,9 +76,6 @@ public class Controller {
             scrolChildren.clear();
             scrolChildren.add(FXMLLoader.load(App.class.getResource(pagePath)));
         }
-//        ObservableList<Node> scrolChildren = main_pane_under_scroll.getChildren();
-//        scrolChildren.clear();
-//        scrolChildren.add(FXMLLoader.load(App.class.getResource(pagePath)));
     }
 
 }
