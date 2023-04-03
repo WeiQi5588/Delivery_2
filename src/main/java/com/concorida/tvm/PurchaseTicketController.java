@@ -121,7 +121,6 @@ public class PurchaseTicketController {
 
     private void payForTickets(String rechargeAmount, String paymentMethod) throws IOException, WriterException, URISyntaxException {
         if ("CREDIT_CARD".equalsIgnoreCase(paymentMethod)){
-
             Message.setText("Recharge successfully!");
         }else if("DEBIT_CARD".equalsIgnoreCase(paymentMethod)){
             Message.setText("Recharge successfully!");

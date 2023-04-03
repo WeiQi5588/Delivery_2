@@ -5,7 +5,6 @@ import com.google.zxing.WriterException;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
-import javafx.scene.Parent;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -87,7 +86,6 @@ public class SubwayCardRechargeController {
     }
 
     private void rechargeSubwayCard(String rechargeAmount, String paymentMethod) throws IOException, WriterException, URISyntaxException {
-
         if ("CREDIT_CARD".equalsIgnoreCase(paymentMethod)){
             Message.setText("Recharge successfully!");
         }else if("DEBIT_CARD".equalsIgnoreCase(paymentMethod)){
